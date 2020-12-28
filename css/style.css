@@ -108,6 +108,14 @@ body {
     padding-top: 46px;
   }
 }
+.main-content .content {
+  position: relative;
+}
+@media screen and (max-width: 991px) {
+  .main-content .content {
+    padding-top: 55px;
+  }
+}
 .main-content .navbar-top-menu {
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -256,7 +264,7 @@ body {
   .sidebar {
     position: absolute;
     padding: 55px 20px;
-    z-index: 100;
+    z-index: 190;
   }
 }
 .sidebar .nav-logo {
@@ -290,17 +298,35 @@ body {
 }
 
 .botao-mobile {
-  z-index: 150;
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  z-index: 200;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .botao-mobile:focus {
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5) !important;
 }
 
+.botao-mobile-filter {
+  z-index: 150;
+  width: 50px !important;
+  right: calc(var(--bs-gutter-x)/ 2);
+  padding: 10px !important;
+  top: 0;
+  border: 1px solid #091E42 !important;
+  background-color: #091E42 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0px 0px 5px 0px rgba(9, 30, 66, 0.25);
+}
+.botao-mobile-filter:focus {
+  box-shadow: 0px 0px 5px 0px rgba(9, 30, 66, 0.25) !important;
+}
+
+@media screen and (max-width: 991px) {
+  .filters-side {
+    position: absolute;
+    z-index: 100;
+    background-color: #fafbfc;
+  }
+}
 .filters-side .filters {
   padding: 25px 20px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.13522);

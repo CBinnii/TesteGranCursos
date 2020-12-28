@@ -206,8 +206,12 @@
 						</div>
 					</div>
 
-					<div class="row">
-						<div class="col-lg-3 filters-side">
+					<div class="row content">
+						<button class="navbar-toggler position-absolute d-lg-none collapsed botao-mobile-filter" type="button" data-bs-toggle="collapse" data-bs-target="#filters-side" aria-controls="filters-side" aria-expanded="false" aria-label="Toggle navigation">
+							<i class="fas fa-filter"></i>
+						</button>
+
+						<div id="filters-side" class="col-lg-3 filters-side d-lg-block collapse">
 							<div class="results d-flex align-items-end">
 								<h1 class="mb-mb-0">Filters</h1>
 							</div>
@@ -278,8 +282,8 @@
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+										<label class="form-check-label" for="flexCheckDefault2">
 											<span>Computers & Tablets</span> <span>1820</span>
 										</label>
 									</div>
@@ -622,7 +626,7 @@
 
 		<script src="js/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 		<!-- Bootstrap slider -->
 		<script src="js/bootstrap-slider/bootstrap-slider.min.js"></script>
 

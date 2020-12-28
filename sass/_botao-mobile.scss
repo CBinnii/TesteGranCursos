@@ -1,12 +1,24 @@
 .botao-mobile {
-	z-index: 150;
-	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+	z-index: 200;
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
 
 	&:focus {
-		-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
-		-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
 		box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5) !important;
 	}
+}
+
+.botao-mobile-filter {
+	z-index: 150;
+	width: 50px !important;
+    right: calc(var(--bs-gutter-x)/ 2);
+    padding: 10px !important;
+    top: 0;
+    border: 1px solid $dark !important;
+    background-color: $dark !important;
+    color: $light !important;
+    box-shadow: 0px 0px 5px 0px rgba(9,30,66,0.25);
+
+    &:focus {
+    	box-shadow: 0px 0px 5px 0px rgba(9,30,66,0.25) !important;
+    }
 }
