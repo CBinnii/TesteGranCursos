@@ -1,0 +1,56 @@
+.sidebar {
+	background: $light;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	@media screen and (max-width: 767px) {
+		position: absolute;
+		padding: 55px 20px;
+		z-index: 100;
+	}
+
+	.nav-logo {
+		padding: 5px;
+
+		img { 
+			max-width: 100%;
+		}
+	}
+	
+
+	p {
+		font-size: 14px;
+		margin-bottom: 5px;
+		margin-top: 15px;
+		padding: 0;
+	}
+
+	.nav-item {
+		.nav-link {
+			width: 100%;
+			color: $blue;
+			padding: 5px;
+		}
+
+		&:hover, &.active {
+			background-color: $blue;
+
+			.nav-link {
+				color: $light;
+			}
+		}
+	}
+
+	.accordion-button {
+		&:after {
+			transform: rotate(270deg);
+		}
+
+		&:not(.collapsed) {
+			&:after {
+				transform: rotate(360deg);
+			}
+		}
+	}
+}

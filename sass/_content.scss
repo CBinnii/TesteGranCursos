@@ -1,0 +1,125 @@
+.main-content {
+	@media screen and (max-width: 767px) {
+		padding-top: 46px;
+	}
+	.navbar-top-menu {
+		border-radius: 10px;
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+		-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+		background-color: $dark;
+
+		.top-menu {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			color: $light;
+
+			.navbar-nav {
+				flex-direction: row;
+
+				@media screen and (max-width: 500px) {
+					margin: 0 !important;
+				}
+			}
+
+			.top-menu-esquerda {
+				display: flex;
+				align-items: center;
+
+				@media screen and (max-width: 500px) {
+					justify-content: center;
+				}
+			}
+
+			.top-menu-direita {
+				display: flex;
+				align-items: center;
+				
+				@media screen and (max-width: 500px) {
+					justify-content: center;
+				}
+
+				.navbar-nav {
+					> li {
+						&:first-of-type {
+							margin-right: 15px;
+						}
+
+						> a {
+							color: $light;
+						}
+					}
+				}
+
+				.dropdown {
+					.dropdown-toggle {
+						display: flex;
+						align-items: center;
+						
+						p {
+							margin: 0;
+							text-align: right;
+							padding-right: 10px;
+							font-size: 14px;
+							line-height: 1.1;
+
+							span {
+								font-size: 11px;
+							}
+						}
+					}
+				}
+			}
+
+			@media screen and (max-width: 500px) {
+				flex-direction: column;
+			}
+		}
+	}
+
+	.breadcrumbs {
+		padding: 20px 0;
+
+		h2 {
+			font-size: 24px;
+			padding-right: 10px;
+			margin: 0;
+			color: $dark;
+		}
+
+		.breadcrumb-item+.breadcrumb-item::before {
+			content: ">>" !important;
+			letter-spacing: -3px;
+			color: $blue;
+		}
+
+		.breadcrumb {
+			margin: 0 !important;
+			border-left: 1px solid $dark;
+			padding-left: 10px;
+
+			.breadcrumb-item {
+				font-size: 14px;
+
+				&.active {
+					color: $red;
+
+					&:before {
+						color: $red;
+					}
+				}
+			}
+		}
+	}
+
+	.configuracao {
+		p {
+			color: $light;
+			background-color: $dark;
+			padding: 6px 10px;
+			border-radius: 100%;
+			cursor: pointer;
+		}
+	}
+}

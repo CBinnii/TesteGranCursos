@@ -1,0 +1,43 @@
+@import "mixins/_clearfix.scss";
+@import "mixins/_colunas.scss";
+@import "mixins/_vertical-align.scss";
+@import "vendor/_variables.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,800;1,200&display=swap');
+// @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css');
+@import "vendor/_variables.scss";
+@import "_base.scss";
+@import "_navbar-dados.scss";
+@import "_content.scss";
+@import "_sidebar.scss";
+@import "_botao-mobile.scss";
+@import "_filters.scss";
+@import "_footer.scss";
+
+.accordions{
+    // width:600px;
+    // margin:0 auto;
+    // border:1px solid #ccc;
+}
+.accordion-item input{
+	display:none;
+}
+.accordion-item label{
+    display:block;
+    border:1px solid #ccc;
+    background:#e5e5e5;
+    cursor:pointer;
+	padding:5px 3px;
+}
+.accordion-content{
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    -ms-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+ }
+[id^=accordion]:checked ~ .accordion-content {
+    height: auto;
+}
