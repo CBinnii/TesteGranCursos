@@ -209,7 +209,7 @@
 					<div class="row">
 						<div class="col-lg-3 filters-side">
 							<div class="results d-flex align-items-end">
-								<h1>Filters</h1>
+								<h1 class="mb-mb-0">Filters</h1>
 							</div>
 
 							<div class="filters">
@@ -494,7 +494,7 @@
 
 								<div class="produto">
 									<div class="row">
-										<div class="col-md-9 produto-dados">
+										<div class="col-lg-9 produto-dados">
 											<img src="images/image.png" alt="Imagem">
 											
 											<div class="produto-sobre">
@@ -504,7 +504,7 @@
 												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 											</div>
 										</div>
-										<div class="col-md-3 produto-preco">
+										<div class="col-lg-3 produto-preco">
 											<div class="produto-rating">
 												<!-- <p>3.4 <i class="far fa-star"></i></p> -->
 											</div>
@@ -519,7 +519,7 @@
 								
 								<div class="produto">
 									<div class="row">
-										<div class="col-md-9 produto-dados">
+										<div class="col-lg-9 produto-dados">
 											<img src="images/image.png" alt="Imagem">
 											
 											<div class="produto-sobre">
@@ -529,7 +529,7 @@
 												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 											</div>
 										</div>
-										<div class="col-md-3 produto-preco">
+										<div class="col-lg-3 produto-preco">
 											<div class="produto-rating">
 												<!-- <p>3.4 <i class="far fa-star"></i></p> -->
 											</div>
@@ -544,7 +544,7 @@
 								
 								<div class="produto">
 									<div class="row">
-										<div class="col-md-9 produto-dados">
+										<div class="col-lg-9 produto-dados">
 											<img src="images/image.png" alt="Imagem">
 											
 											<div class="produto-sobre">
@@ -554,7 +554,7 @@
 												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 											</div>
 										</div>
-										<div class="col-md-3 produto-preco">
+										<div class="col-lg-3 produto-preco">
 											<div class="produto-rating">
 												<!-- <p>3.4 <i class="far fa-star"></i></p> -->
 											</div>
@@ -569,7 +569,7 @@
 								
 								<div class="produto">
 									<div class="row">
-										<div class="col-md-9 produto-dados">
+										<div class="col-lg-9 produto-dados">
 											<img src="images/image.png" alt="Imagem">
 											
 											<div class="produto-sobre">
@@ -579,7 +579,7 @@
 												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 											</div>
 										</div>
-										<div class="col-md-3 produto-preco">
+										<div class="col-lg-3 produto-preco">
 											<div class="produto-rating">
 												<p>3.4 <i class="far fa-star"></i></p>
 											</div>
