@@ -9,8 +9,13 @@
 
 		.produto-dados {
 			display: flex;
+			align-items: center;
 			padding-top: 15px;
 			padding-bottom: 15px;
+
+			@media screen and (max-width: 767px) {
+				flex-direction: column;
+			}
 
 			.produto-sobre {
 				padding-left: 15px;
@@ -30,6 +35,11 @@
 					font-size: 14px;
 					line-height: 23px;
 				}
+				
+				@media screen and (max-width: 767px) {
+					padding-top: 15px;
+					padding-left: 0;
+				}
 			}
 		}
 
@@ -38,6 +48,10 @@
 			padding-bottom: 15px;
 			border-left: 1px solid $dark;
 			text-align: center;
+			@media screen and (max-width: 991px) {
+				border: none;
+				border-top: 1px solid $dark;
+			}
 
 			h5 {
 				font-size: 18px;
