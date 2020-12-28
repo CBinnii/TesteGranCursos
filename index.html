@@ -276,62 +276,62 @@
 									<h3>Category</h3>
 
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="CellPhones">
+										<label class="form-check-label" for="CellPhones">
 											<span>Cell Phones</span> <span>1920</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-										<label class="form-check-label" for="flexCheckDefault2">
+										<input class="form-check-input" type="checkbox" value="" id="ComputersTablets">
+										<label class="form-check-label" for="ComputersTablets">
 											<span>Computers & Tablets</span> <span>1820</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="CellPhoneAccessories">
+										<label class="form-check-label" for="CellPhoneAccessories">
 											<span>Cell Phone Accessories</span> <span>462</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Appliances">
+										<label class="form-check-label" for="Appliances">
 											<span>Appliances</span> <span>6556</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Audio">
+										<label class="form-check-label" for="Audio">
 											<span>Audio</span> <span>120</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="iPhoneAccessories">
+										<label class="form-check-label" for="iPhoneAccessories">
 											<span>iPhone Accessories</span> <span>353</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="CamerasCamcorders">
+										<label class="form-check-label" for="CamerasCamcorders">
 											<span>Cameras & Camcorders</span> <span>45</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="iPhoneCasesClips">
+										<label class="form-check-label" for="iPhoneCasesClips">
 											<span>iPhone Cases & Clips</span> <span>456</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="TVHomeTheater">
+										<label class="form-check-label" for="TVHomeTheater">
 											<span>TV & Home Theater</span> <span>55</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="SmallKitchenAppliances">
+										<label class="form-check-label" for="SmallKitchenAppliances">
 											<span>Small Kitchen Appliances</span> <span>10</span>
 										</label>
 									</div>
@@ -341,62 +341,62 @@
 									<h3>Brand</h3>
 
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Insigni">
+										<label class="form-check-label" for="Insigni">
 											<span>Insigni</span> <span>220</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Samsung">
+										<label class="form-check-label" for="Samsung">
 											<span>Samsung</span> <span>120</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Apple">
+										<label class="form-check-label" for="Apple">
 											<span>Apple</span> <span>320</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="HP">
+										<label class="form-check-label" for="HP">
 											<span>HP</span> <span>32</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Sony">
+										<label class="form-check-label" for="Sony">
 											<span>Sony</span> <span>520</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Metra">
+										<label class="form-check-label" for="Metra">
 											<span>Metra</span> <span>55</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Dyne">
+										<label class="form-check-label" for="Dyne">
 											<span>Dyne</span> <span>120</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="LG">
+										<label class="form-check-label" for="LG">
 											<span>LG</span> <span>98</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Canon">
+										<label class="form-check-label" for="Canon">
 											<span>Canon</span> <span>99</span>
 										</label>
 									</div>
 									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-										<label class="form-check-label" for="flexCheckDefault">
+										<input class="form-check-input" type="checkbox" value="" id="Speck">
+										<label class="form-check-label" for="Speck">
 											<span>Speck</span> <span>575</span>
 										</label>
 									</div>
@@ -585,9 +585,9 @@
 										</div>
 										<div class="col-lg-3 produto-preco">
 											<div class="produto-rating">
-												<p>3.4 <i class="far fa-star"></i></p>
+												<!-- <p>3.4 <i class="far fa-star"></i></p> -->
 											</div>
-											<h5>$399</h5>
+											<h5>$2499</h5>
 											<p><i class="fas fa-shopping-cart fa-size"></i> Free Shipping</p>
 
 											<a href="#" title="" class="botao-wishlist"><i class="fas fa-heart"></i> WISHLIST</a>
