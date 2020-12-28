@@ -14,6 +14,8 @@
 	</head>
 	<body>
 		<div class="container-fluid">
+			<div id="go-top" class="d-md-none"><i class="fas fa-chevron-up"></i></div>
+			
 			<div class="row">
 				<button class="navbar-toggler position-absolute d-md-none collapsed botao-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
 					<i class="fas fa-bars"></i>
@@ -625,24 +627,9 @@
 		</div>
 
 		<script src="js/jquery.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-		<!-- Bootstrap slider -->
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap-slider/bootstrap-slider.min.js"></script>
-
-		<script>
-			$('.slider').bootstrapSlider({
-				step: 0.01
-			});
-			$('.slider').on('slide', function (ev) {
-				var str = this.value;
-				var str_split = str.split(",");
-
-				$('#value-output-from').html("");
-				$('#value-output-from').html(str_split[0]);
-				$('#value-output-to').html("");
-				$('#value-output-to').html(str_split[1]);
-			});
-		</script>
+		<script src="js/app.js"></script>
 	</body>
 </html>

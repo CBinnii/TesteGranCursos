@@ -96,8 +96,19 @@ body {
 }
 
 .form-check-input:checked {
-  background-color: #FFAB00;
-  border-color: #FFAB00;
+  background-color: #0052CC !important;
+  border-color: #0052CC !important;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #A5ADBA;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background: #A5ADBA;
+}
+body::-webkit-scrollbar-thumb {
+  background: #091E42;
 }
 
 .main-content {
@@ -251,6 +262,25 @@ body {
   padding: 6px 10px;
   border-radius: 100%;
   cursor: pointer;
+}
+
+#go-top {
+  position: fixed;
+  bottom: 10px;
+  right: 12px;
+  z-index: 500;
+  background-color: #091E42;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#go-top.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .sidebar {

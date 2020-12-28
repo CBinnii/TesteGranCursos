@@ -92,6 +92,19 @@ body {
 }
 
 .form-check-input:checked {
-    background-color: $yellow ;
-    border-color: $yellow ;
+    background-color: $blue !important;
+    border-color: $blue !important;
+}
+
+body {
+	&::-webkit-scrollbar-track {
+	    background-color: $mid500; 
+	}
+	&::-webkit-scrollbar {
+	    width: 5px;
+	    background: $mid500; 
+	}
+	&::-webkit-scrollbar-thumb {
+	    background: $dark; 
+	}
 }

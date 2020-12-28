@@ -170,3 +170,23 @@
 		}
 	}
 }
+
+#go-top {
+	position: fixed;
+	bottom: 10px;
+	right: 12px;
+	z-index: 500;
+	background-color: $dark;
+	padding: 10px 15px;
+	color: $light;
+	cursor: pointer;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+
+	&.show {
+		opacity: 1;
+		visibility: visible;
+	}
+}
