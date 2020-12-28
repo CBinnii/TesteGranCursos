@@ -1,0 +1,86 @@
+.produtos {
+	.produto {
+		background-color: $light;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 8px;
+		box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+		margin-bottom: 15px;
+
+		.produto-dados {
+			display: flex;
+			padding-top: 15px;
+			padding-bottom: 15px;
+
+			.produto-sobre {
+				padding-left: 15px;
+
+				h5 {
+					font-size: 16px;
+				}
+
+				h6 {
+					font-size: 12px;
+					font-weight: 300;
+					padding-bottom: 15px;
+				}
+
+				p {
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 23px;
+				}
+			}
+		}
+
+		.produto-preco {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border-left: 1px solid $dark;
+			text-align: center;
+
+			h5 {
+				font-size: 18px;
+			}
+
+			p {
+				font-size: 14px;
+				font-weight: 300;
+			}
+
+			.produto-rating {
+				display: flex;
+				justify-content: flex-end;
+				min-height: 31px;
+
+				p {
+					font-size: 14px;
+					padding: 5px 10px;
+					background-color: $dark700;
+					color: $light;
+					margin: 0;
+					border-radius: 8px;
+				}
+			}
+
+			.botao-wishlist, .botao-add-cart {
+				border-radius: 8px;
+				padding: 10px 15px;
+				text-decoration: none;
+			}
+
+			.botao-wishlist {
+				display: block;
+				background-color: $light500;
+				color: $dark;
+				margin-bottom: 15px;
+			}
+			
+			.botao-add-cart {
+				display: block;
+				background-color: $dark700;
+				color: $light;
+			}
+		}
+	}
+}
