@@ -190,8 +190,8 @@
 						</div>
 					</div>
 
-					<div class="d-flex align-items-center justify-content-between">
-						<div class="breadcrumbs d-flex align-items-center">
+					<div class="breadcrumbs">
+						<div class="breadcrumbs-top">
 							<h2>Card Action</h2>
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb">
